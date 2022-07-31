@@ -1,15 +1,44 @@
-h1 {
+:root {
+  --branding-color: #6c63ff;
+  --secondary-color: #f9f7fe;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.hero h1 {
   font-family: "Playfair Display", serif;
   font-size: 96px;
   font-weight: bold;
 }
 
+.hero h2 {
+  font-size: 36px;
+}
+
 .hero {
-  background: #f9f7fe;
+  background: var(--secondary-color);
   text-align: center;
+  padding: 160px 20px;
 }
 
 p {
   font-size: 36px;
-  font-family: "Raleway", sans-serif;
+}
+
+.hero p {
+  font-weight: bold;
+  margin: 0;
+  line-height: 2;
+  color: #272142;
+}
+
+.hero .btn-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
