@@ -1,7 +1,15 @@
-body {
-  font-family: "Raleway", sans-serif;
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 96px;
+  font-weight: bold;
 }
 
 .hero {
-  background: #79f7fe;
+  background: #f9f7fe;
+  text-align: center;
+}
+
+p {
+  font-size: 36px;
+  font-family: "Raleway", sans-serif;
 }
