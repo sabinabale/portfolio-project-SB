@@ -7,14 +7,19 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-.hero h1 {
+h1 {
   font-family: "Playfair Display", serif;
   font-size: 96px;
   font-weight: bold;
+  margin: 0;
+  padding: 0;
+  line-height: 150px;
 }
 
-.hero h2 {
-  font-size: 36px;
+h2 {
+  font-size: 30px;
+
+  line-height: 40px;
 }
 
 .hero {
@@ -24,7 +29,11 @@ body {
 }
 
 p {
-  font-size: 36px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+  margin: 50px;
 }
 
 .hero p {
@@ -32,6 +41,8 @@ p {
   margin: 0;
   line-height: 2;
   color: #272142;
+  font-size: 36px;
+  line-height: 30px;
 }
 
 .hero .btn-branding {
