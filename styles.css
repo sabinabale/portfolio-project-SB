@@ -84,6 +84,36 @@ p {
   margin: 0;
 }
 
-.project-decription {
+.project-description {
   padding: 120px 60px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2,
+  .container h2 {
+    font-size: 34px;
+    text-align: center;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+
+  .container a {
+    display: block;
+  }
+
+  .container img {
+    display: none;
+  }
 }
