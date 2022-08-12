@@ -7,19 +7,17 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-h1 {
-  font-family: "Playfair Display", serif;
-  font-size: 96px;
+h1,
+h2,
+h3 {
   font-weight: bold;
-  margin: 0;
-  padding: 0;
-  line-height: 150px;
+  font-family: "Playfair Display", serif;
 }
 
-h2 {
-  font-size: 30px;
-
-  line-height: 40px;
+p {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .hero {
@@ -28,60 +26,50 @@ h2 {
   padding: 160px 20px;
 }
 
-p {
-  font-size: 16px;
-  text-align: center;
-  line-height: 30px;
-  font-weight: bold;
-  margin: 50px;
-}
-
 .hero p {
+  font-size: 36px;
   font-weight: bold;
   margin: 0;
-  line-height: 2;
   color: #272142;
-  font-size: 36px;
   line-height: 30px;
 }
 
-.hero .btn-branding {
+h1 {
+  font-size: 96px;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+.hero h2 {
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+  line-height: 2;
+}
+
+.btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
   color: white;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
-}
-
-.container {
-  line-height: 24px;
-  max-width: 85%;
-}
-
-.container h2 {
-  font-size: 64px;
   font-weight: bold;
-  line-height: 80px;
-
-  font-family: "Playfair Display", serif;
-  padding: 0;
-  margin: 0;
-}
-
-.container p {
-  padding: 0;
-  margin: 0;
 }
 
 .btn-branding-outline {
-  padding: 15px 30px;
+  color: var(--branding-color);
   border: solid 1px var(--branding-color);
+  border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
-  color: var(--branding-color);
+  padding: 15px 30px;
   font-weight: bold;
-  margin: 0;
 }
 
 .project-description {
@@ -90,18 +78,12 @@ p {
 
 @media (max-width: 900px) {
   h1 {
-    font-size: 44px;
+    font-size: 50px;
     line-height: 2;
   }
 
-  h2,
-  .container h2 {
-    font-size: 34px;
-    text-align: center;
-  }
-
-  .hero {
-    padding: 80px 20px;
+  h2 {
+    font-size: 44px;
   }
 
   .project-description {
@@ -109,11 +91,31 @@ p {
     text-align: center;
   }
 
-  .container a {
-    display: block;
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 
-  .container img {
-    display: none;
-  }
+.hero {
+  padding: 80px 20px;
+
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+}
+
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section-content {
+  margin: 30px;
 }
