@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>Portfolio | Sabina Balejikova</title>
+  <meta name="description" content="Learn more about me and find out why I do what I do" />
+    <title>About Me | Sabina Balejikova</title>
     <script
       src="https://kit.fontawesome.com/f08f576912.js"
       crossorigin="anonymous"
@@ -41,6 +41,26 @@
   </head>
 
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="homepage">
+          <img src="/images/logo.png" class="logo d-none d-md-block" />
+          <img
+            src="/images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="Sabina logo"
+          />
+        </a>
+        <ul>
+          <li><a href="/" title="homepage"> Home</a></li>
+          <li class="active">
+            <a href="/about.html" title="about Sabina"> About</a>
+          </li>
+          <li><a href="/work.html" title="Sabina's projects"> Work</a></li>
+          <li><a href="/contact.html" title="contact Sabina"> Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -55,13 +75,38 @@
               page. If you like what you see, feel free to drop me a message.
             </p>
 
-            <a href="" class="btn btn-branding mt-4">See my projects</a>
+            <a href="/work.html" class="btn btn-branding mt-4">See my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="/images/patricia.png" alt="" class="img-fluid" />
+          <img src="/images/patricia.png" alt="Sabina's photo" class="img-fluid" />
         </div>
       </div>
-    </div>
+
+    <footer>
+        <div class="contact-box justify-content-between d-none d-md-flex">
+          <div>
+          <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a href="/contact.html" title="contact Sabina" class="btn btn-branding mt-3">Contact me</a>
+        </div>
+        </div>
+        <div class="d-flex justify-content-center">
+        <a href="mailto:sabinabalejikova@gmail.com" class="email-link"
+          title="Email Sabina">sabinabalejikova@gmail.com</a
+        >
+        </div>
+        <div class="social-links d-flex justify-content-center mt-4">
+         <a href="" target="_blank" title="Sabina's Instagram account"><i class="fa-brands fa-instagram"></a></i>
+         <a href="" target="_blank" title="Github Profile"><i class="fa-brands fa-github"></a></i>
+         <a href="" target="_blank" title="Sabina's Facebook account"><i class="fa-brands fa-facebook"></a></i>
+         
+        </div>
+        <p class="mt-5 text-center">This page was coded by Sabina and it is <a href="https://github.com/sabinabale/portfolio-project-SB">
+          open-sourced</a></p>
+      </footer>
+          </div>
   </body>
 </html>

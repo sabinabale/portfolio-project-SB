@@ -36,14 +36,14 @@ nav a {
 
 nav li.active a,
 nav a:hover,
-footer .email-link:hover {
+footer .email-link:hover,
+footer a:hover {
   color: var(--branding-color);
 }
 
 h1,
 h2,
-h3,
-h4 {
+h3 {
   font-weight: bold;
   font-family: "Playfair Display", serif;
 }
@@ -56,7 +56,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -78,7 +78,7 @@ h2 {
   font-size: 64px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 
@@ -104,7 +104,7 @@ h4 {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content h3 {
@@ -146,6 +146,10 @@ h4 {
 
 footer {
   margin: 0 0 50px;
+}
+
+footer a {
+  color: var(--branding-color);
 }
 
 footer .contact-box p {
@@ -201,10 +205,6 @@ footer .social-links a:hover {
   .content {
     text-align: center;
     padding: 0;
-  }
-
-  .hero {
-    padding: 80px 20px;
   }
 
   nav a {
